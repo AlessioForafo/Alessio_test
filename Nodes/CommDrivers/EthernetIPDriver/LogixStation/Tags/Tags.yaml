@@ -1,0 +1,148 @@
+Name: Tags
+Id: g=18020bc3d3dd839ea61eb66253c325fa
+Type: BaseObjectType
+Children:
+- Name: Controller Tags
+  Id: g=3c3cc2fcab42067bbe281b487f66d43e
+  Type: TagStructure
+  Children:
+  - Name: Tank1
+    Id: g=a1b05ccbb89501975bfc510d9fa1fc97
+    Type: TankUDT
+    Children:
+    - Name: ValveInStatus
+      Id: g=a399f5a61302b15fd3fe4de6b7e2edd4
+      Type: EthernetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=bfb05cef1ca6770dfa78e53e847e5dc7
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Tank1.ValveInStatus"
+    - Name: ValveInCmd
+      Id: g=3765ca6675905d0ef6a175c6aa798641
+      Type: EthernetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=4c34e5f4fabea7dbe3f7e3be5820c95e
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Tank1.ValveInCmd"
+    - Name: ValveOutStatus
+      Id: g=87303224e8517e6e23fdcc67cab98073
+      Type: EthernetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=4d8cf82079eb1a89191231693fd35167
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Tank1.ValveOutStatus"
+    - Name: ValveOutCmd
+      Id: g=f32a4978b043bd4065df12d921420dc8
+      Type: EthernetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=bb508c58a49d4b44b7f0af5c3268ff34
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Tank1.ValveOutCmd"
+    - Name: Level
+      Id: g=8276a4e02ef36f142071c9723a7685ef
+      Type: EthernetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Id: g=3a677c5a397dd742c91d9b8b5e441bac
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Tank1.Level"
+    - Name: SetPoint
+      Id: g=2659736bf0db88833dc37c7b091a76a5
+      Type: EthernetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Id: g=15d9565120ff66756ad8a63a16d84dfe
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Tank1.SetPoint"
+  - Name: Tank2
+    Id: g=78c666f714e1c395dc061b7570a12897
+    Type: TankUDT
+    Children:
+    - Name: ValveInStatus
+      Id: g=37dd4c65a2350dc874a4a63dea010884
+      Type: EthernetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=79ec5e65714686ae9f7e53a93951f7f8
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Tank2.ValveInStatus"
+    - Name: ValveInCmd
+      Id: g=d37cf1d8af1b1a5b15f979979f71cf54
+      Type: EthernetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=ccb00c3ba7c7153438668608dd4adf47
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Tank2.ValveInCmd"
+    - Name: ValveOutStatus
+      Id: g=51be815dd2f5964f3bb6b5bd161c1783
+      Type: EthernetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=bb4896553eb7efae5d9a73d01cae9121
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Tank2.ValveOutStatus"
+    - Name: ValveOutCmd
+      Id: g=bc07ff453c1b27a91d927ebca34a4cf6
+      Type: EthernetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=8c0606707d39fc9b18e4c684908831d8
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Tank2.ValveOutCmd"
+    - Name: Level
+      Id: g=014d45b202776704c4aa170d143799f4
+      Type: EthernetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Id: g=8abb3ef8deb7e115d2eb3451f56d845a
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Tank2.Level"
+    - Name: SetPoint
+      Id: g=586fa9cae175cb0f1f06ec692783b22a
+      Type: EthernetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Id: g=67c3b1d5abff38ecd9d6e4a591fc4a18
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Tank2.SetPoint"

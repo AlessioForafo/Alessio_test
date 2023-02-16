@@ -1,0 +1,128 @@
+Name: LogixStation
+Id: g=d3f86636d527f9c9f7b18deed51ad1c5
+Type: EthernetIPStation
+Children:
+- Name: MaximumJobSizeInBytes
+  Id: g=02d18686db6ce01ca4b60c33f09eab9a
+  Type: BaseDataVariableType
+  DataType: UInt32
+  Value: 504
+- Name: IPAddress
+  Id: g=1e0b1a01ddfca08c597e44e43b0f47d2
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "172.19.17.10"
+- Name: Port
+  Id: g=09a68441e5c83b02346880b16e2185f9
+  Type: BaseDataVariableType
+  DataType: UInt16
+  Value: 44818
+- Name: Timeout
+  Id: g=6216a9670a93430167395c58121c92c5
+  Type: BaseDataVariableType
+  DataType: Duration
+  Value: "0:00:01:0.0000000"
+- Name: PhysicalAddressOptimization
+  Id: g=82542e2a6525d2bcac8a7185fbc13f03
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+- Name: OperationCode
+  Id: g=1c76a56a3de81e821905367d062c05fd
+  Type: BaseDataVariableType
+  DataType: CommunicationOperationCode
+  AccessLevel: Read
+  Value: 0
+- Class: Reference
+  Target: ns=39;i=29
+  Direction: Forward
+- Class: Reference
+  Target: ns=39;i=30
+  Direction: Forward
+- Class: Reference
+  Target: ns=39;i=67
+  Direction: Forward
+- Class: Reference
+  Target: ns=39;i=31
+  Direction: Forward
+- Class: Reference
+  Target: ns=39;i=94
+  Direction: Forward
+- Class: Reference
+  Target: ns=39;i=96
+  Direction: Forward
+- File: Tags/Tags.yaml
+- Name: Types
+  Id: g=845cc305e73710b2b2d3cf8faba8beb2
+  Type: BaseObjectType
+  Children:
+  - Name: TankUDT
+    Id: g=e7d59475ff780b3ac5c48173bfc4f68a
+    Supertype: TagStructure
+    Children:
+    - Name: ValveInStatus
+      Id: g=9d2798e03225afb3ab43b56f40d941ba
+      Type: EthernetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=d259e883a035c7170583e7356be0a6aa
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ValveInStatus"
+    - Name: ValveInCmd
+      Id: g=2c024fa714276fae35c01336e835c3bc
+      Type: EthernetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=e05d40dbd4b48d23ba7e0ed4dd430061
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ValveInCmd"
+    - Name: ValveOutStatus
+      Id: g=440772464c16f795f813ee892d402365
+      Type: EthernetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=95e7c81d5db136e5d27414cfa6b33453
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ValveOutStatus"
+    - Name: ValveOutCmd
+      Id: g=7724197e54752b5afa58bec26d48dc9c
+      Type: EthernetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Id: g=e41721867f5ea0526c2f47e2a98974c6
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ValveOutCmd"
+    - Name: Level
+      Id: g=ae88a25345e8aa0303c3711ee89bc06f
+      Type: EthernetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Id: g=f0fd04e91661e178903236335a6a217f
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Level"
+    - Name: SetPoint
+      Id: g=80cfa471dde659fe68b308b27027cc2b
+      Type: EthernetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Id: g=bfbe60dc7d91ed5f5fe753bab4d40a4a
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "SetPoint"
